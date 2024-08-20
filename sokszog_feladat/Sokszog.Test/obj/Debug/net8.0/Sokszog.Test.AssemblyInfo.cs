@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sokszog.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abd3ff5f61a3cac6108b4d98225640f32652a108")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+215695dbfd647aa1493f051cb3a44d8a229a736b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sokszog.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sokszog.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

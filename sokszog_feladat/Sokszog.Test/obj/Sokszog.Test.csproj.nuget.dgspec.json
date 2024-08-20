@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\xy\\Desktop\\TEST\\assignment-002-sokszog\\sokszog_feladat\\Sokszog.Test\\Sokszog.Test.csproj": {}
+    "C:\\Users\\xy\\Desktop\\TEST\\assignment002-sokszog-antalnagy-dev\\sokszog_feladat\\Sokszog.Test\\Sokszog.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\xy\\Desktop\\TEST\\assignment-002-sokszog\\sokszog_feladat\\Sokszog.Test\\Sokszog.Test.csproj": {
+    "C:\\Users\\xy\\Desktop\\TEST\\assignment002-sokszog-antalnagy-dev\\sokszog_feladat\\Sokszog.Test\\Sokszog.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xy\\Desktop\\TEST\\assignment-002-sokszog\\sokszog_feladat\\Sokszog.Test\\Sokszog.Test.csproj",
+        "projectUniqueName": "C:\\Users\\xy\\Desktop\\TEST\\assignment002-sokszog-antalnagy-dev\\sokszog_feladat\\Sokszog.Test\\Sokszog.Test.csproj",
         "projectName": "Sokszog.Test",
-        "projectPath": "C:\\Users\\xy\\Desktop\\TEST\\assignment-002-sokszog\\sokszog_feladat\\Sokszog.Test\\Sokszog.Test.csproj",
+        "projectPath": "C:\\Users\\xy\\Desktop\\TEST\\assignment002-sokszog-antalnagy-dev\\sokszog_feladat\\Sokszog.Test\\Sokszog.Test.csproj",
         "packagesPath": "C:\\Users\\xy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xy\\Desktop\\TEST\\assignment-002-sokszog\\sokszog_feladat\\Sokszog.Test\\obj\\",
+        "outputPath": "C:\\Users\\xy\\Desktop\\TEST\\assignment002-sokszog-antalnagy-dev\\sokszog_feladat\\Sokszog.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\xy\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\xy\\Desktop\\TEST\\assignment-002-sokszog\\sokszog_feladat\\sokszog_feladat\\sokszog_feladat.csproj": {
-                "projectPath": "C:\\Users\\xy\\Desktop\\TEST\\assignment-002-sokszog\\sokszog_feladat\\sokszog_feladat\\sokszog_feladat.csproj"
+              "C:\\Users\\xy\\Desktop\\TEST\\assignment002-sokszog-antalnagy-dev\\sokszog_feladat\\sokszog_feladat\\sokszog_feladat.csproj": {
+                "projectPath": "C:\\Users\\xy\\Desktop\\TEST\\assignment002-sokszog-antalnagy-dev\\sokszog_feladat\\sokszog_feladat\\sokszog_feladat.csproj"
               }
             }
           }
@@ -86,14 +86,14 @@
         }
       }
     },
-    "C:\\Users\\xy\\Desktop\\TEST\\assignment-002-sokszog\\sokszog_feladat\\sokszog_feladat\\sokszog_feladat.csproj": {
+    "C:\\Users\\xy\\Desktop\\TEST\\assignment002-sokszog-antalnagy-dev\\sokszog_feladat\\sokszog_feladat\\sokszog_feladat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xy\\Desktop\\TEST\\assignment-002-sokszog\\sokszog_feladat\\sokszog_feladat\\sokszog_feladat.csproj",
+        "projectUniqueName": "C:\\Users\\xy\\Desktop\\TEST\\assignment002-sokszog-antalnagy-dev\\sokszog_feladat\\sokszog_feladat\\sokszog_feladat.csproj",
         "projectName": "sokszog_feladat",
-        "projectPath": "C:\\Users\\xy\\Desktop\\TEST\\assignment-002-sokszog\\sokszog_feladat\\sokszog_feladat\\sokszog_feladat.csproj",
+        "projectPath": "C:\\Users\\xy\\Desktop\\TEST\\assignment002-sokszog-antalnagy-dev\\sokszog_feladat\\sokszog_feladat\\sokszog_feladat.csproj",
         "packagesPath": "C:\\Users\\xy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xy\\Desktop\\TEST\\assignment-002-sokszog\\sokszog_feladat\\sokszog_feladat\\obj\\",
+        "outputPath": "C:\\Users\\xy\\Desktop\\TEST\\assignment002-sokszog-antalnagy-dev\\sokszog_feladat\\sokszog_feladat\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\xy\\AppData\\Roaming\\NuGet\\NuGet.Config",
