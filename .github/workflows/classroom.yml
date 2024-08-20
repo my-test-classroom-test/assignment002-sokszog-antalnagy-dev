@@ -1,0 +1,68 @@
+name: Classroom Autograder
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.x' # Specify the .NET version you're using
+
+    - name: Install dependencies
+      run: dotnet restore
+      working-directory: sokszog_feladat/sokszog_feladat
+
+    - name: Build the project
+      run: dotnet build --no-restore
+      working-directory: sokszog_feladat/sokszog_feladat
+
+    - name: Run tests and generate trx log
+      run: |
+        mkdir -p TestResults  # Ensure the directory exists
+        dotnet test --logger "trx;LogFileName=TestResults.trx" --results-directory "./TestResults"
+      working-directory: sokszog_feladat/sokszog_feladat
+      continue-on-error: true
+
+    - name: List all files in working directory
+      run: |
+        echo "Listing all files in working directory:"
+        ls -R
+      working-directory: sokszog_feladat/sokszog_feladat
+
+    - name: Parse Test Results and Sum Points
+      run: |
+        # Find the .trx file in the TestResults directory
+        TRX_FILE=$(find sokszog_feladat/sokszog_feladat/TestResults -name 'TestResults.trx' | head -n 1)
+
+        if [ -z "$TRX_FILE" ]; then
+          echo "No .trx file found. Test execution might have failed."
+          exit 1
+        fi
+
+        echo "Using TRX file: $TRX_FILE"
+
+        # Extract the log output that contains "Points: 10"
+        grep "Points: 10" "$TRX_FILE" > points.log || echo "No points found in TRX file"
+
+        # Count the number of "Points: 10" entries
+        POINTS=$(grep -c "Points: 10" points.log)
+
+        # Calculate the total points
+        TOTAL_POINTS=$((POINTS * 10))
+
+        # Output the total points
+        echo "Total Points: $TOTAL_POINTS"
+
+        # Fail the build if no points were awarded
+        if [ "$TOTAL_POINTS" -eq 0 ]; then
+          echo "No points were awarded, there might be a problem with the tests."
+          exit 1
+        fi
+      working-directory: sokszog_feladat/sokszog_feladat

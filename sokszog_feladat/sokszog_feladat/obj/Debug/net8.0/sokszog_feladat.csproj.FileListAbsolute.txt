@@ -1,0 +1,15 @@
+C:\Users\xy\Desktop\TEST\assignment-002-sokszog\sokszog_feladat\sokszog_feladat\bin\Debug\net8.0\sokszog_feladat.exe
+C:\Users\xy\Desktop\TEST\assignment-002-sokszog\sokszog_feladat\sokszog_feladat\bin\Debug\net8.0\sokszog_feladat.deps.json
+C:\Users\xy\Desktop\TEST\assignment-002-sokszog\sokszog_feladat\sokszog_feladat\bin\Debug\net8.0\sokszog_feladat.runtimeconfig.json
+C:\Users\xy\Desktop\TEST\assignment-002-sokszog\sokszog_feladat\sokszog_feladat\bin\Debug\net8.0\sokszog_feladat.dll
+C:\Users\xy\Desktop\TEST\assignment-002-sokszog\sokszog_feladat\sokszog_feladat\bin\Debug\net8.0\sokszog_feladat.pdb
+C:\Users\xy\Desktop\TEST\assignment-002-sokszog\sokszog_feladat\sokszog_feladat\obj\Debug\net8.0\sokszog_feladat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xy\Desktop\TEST\assignment-002-sokszog\sokszog_feladat\sokszog_feladat\obj\Debug\net8.0\sokszog_feladat.AssemblyInfoInputs.cache
+C:\Users\xy\Desktop\TEST\assignment-002-sokszog\sokszog_feladat\sokszog_feladat\obj\Debug\net8.0\sokszog_feladat.AssemblyInfo.cs
+C:\Users\xy\Desktop\TEST\assignment-002-sokszog\sokszog_feladat\sokszog_feladat\obj\Debug\net8.0\sokszog_feladat.csproj.CoreCompileInputs.cache
+C:\Users\xy\Desktop\TEST\assignment-002-sokszog\sokszog_feladat\sokszog_feladat\obj\Debug\net8.0\sokszog_feladat.sourcelink.json
+C:\Users\xy\Desktop\TEST\assignment-002-sokszog\sokszog_feladat\sokszog_feladat\obj\Debug\net8.0\sokszog_feladat.dll
+C:\Users\xy\Desktop\TEST\assignment-002-sokszog\sokszog_feladat\sokszog_feladat\obj\Debug\net8.0\refint\sokszog_feladat.dll
+C:\Users\xy\Desktop\TEST\assignment-002-sokszog\sokszog_feladat\sokszog_feladat\obj\Debug\net8.0\sokszog_feladat.pdb
+C:\Users\xy\Desktop\TEST\assignment-002-sokszog\sokszog_feladat\sokszog_feladat\obj\Debug\net8.0\sokszog_feladat.genruntimeconfig.cache
+C:\Users\xy\Desktop\TEST\assignment-002-sokszog\sokszog_feladat\sokszog_feladat\obj\Debug\net8.0\ref\sokszog_feladat.dll
